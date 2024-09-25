@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Box Model</title>
+  <style>
+    .elemento {
+      width: 200px;
+      padding: 10px;
+      border: 5px solid black;
+      margin: 20px auto; /* Centra el elemento horizontalmente */
+      box-sizing: border-box;
+      background-color: lightblue; /* Color de fondo */
+      text-align: center; /* Centra el texto */
+    }
+    body {
+      background-color: lightgray; /* Color de fondo del margen */
+    }
+  </style>
+</head>
+<body>
+  <div class="elemento">
+    <h1>CAJA DE CARTON</h1>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplo de Box Model</title>
+  <style>
+    .elemento {
+      width: 600px;
+      padding: 10px;
+      border: 4px solid black;
+      margin: 50px auto; 
+      box-sizing: border-box;
+      background-color: lightblue; 
+      text-align: center; 
+    }
+
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .pepito {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .caja {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 1.2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .caja1 {
+            background-color: #ff6f61;
+        }
+        .caja2 {
+            background-color: #6b5b95;
+        }
+        .caja3 {
+            background-color: #88b04b;
+        }
+        .caja4 {
+            background-color: #f7cac9;
+            color: #000;
+        }
+  </style>
+</head>
+<body>
+  <div class="elemento">
+    <h1>Proceso de reciclaje</h1>
+    <p>El reciclaje de cartón es un proceso sencillo y eficiente. En muchos 
+        países, se recoge y recicla un alto porcentaje del cartón utilizado. 
+        Este proceso implica la recolección, clasificación, limpieza y 
+        procesamiento del cartón para convertirlo en nuevos productos. 
+        El cartón reciclado puede ser reutilizado hasta siete veces, lo que 
+        lo convierte en uno de los materiales más sostenibles</p>
+  </div>
+  <h1 style="text-align: center; padding: 20px;">Bienvenidos a la Tienda de Cajas</h1>
+    <div class="pepito">
+        <div class="caja caja1">Caja Roja</div>
+        <div class="caja caja2">Caja Púrpura</div>
+        <div class="caja caja3">Caja Verde</div>
+        <div class="caja caja4">Caja Rosa</div>
+    </div>
+</body>
+</html>
